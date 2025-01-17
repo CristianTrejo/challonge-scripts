@@ -1,6 +1,7 @@
 const axios = require('axios');
+import { API_KEY } from './config';
 
-const apiKey = 'caNkv1ddQzHtQDYkLshboegBJrHDECozO2qUqOK5';
+const apiKey = API_KEY;
 const tournamentName = 'Singles Enero 2025';
 const categories = [
 	'Varonil A',

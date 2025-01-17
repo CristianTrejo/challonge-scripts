@@ -1,5 +1,6 @@
+import { API_KEY } from "./config";
 // Configura tu API Key de Challonge
-const CHALLONGE_API_KEY = "caNkv1ddQzHtQDYkLshboegBJrHDECozO2qUqOK5";
+const CHALLONGE_API_KEY = API_KEY;
 
 // Configura la URL base de Challonge
 const BASE_URL = "https://api.challonge.com/v1/tournaments.json";
