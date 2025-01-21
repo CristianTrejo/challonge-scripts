@@ -6,6 +6,12 @@ const CHALLONGE_API_KEY = API_KEY;
 const BASE_URL = "https://api.challonge.com/v1/tournaments.json";
 
 // Función para obtener los torneos
+/**
+ * The function `obtenerTorneos` makes an asynchronous request to a specified API endpoint using a
+ * provided API key, handles the response, and logs the retrieved tournament data to the console.
+ * @returns The function `obtenerTorneos` is returning the data obtained from the API request if it is
+ * needed for further use.
+ */
 async function obtenerTorneos() {
   try {
     // Realiza la solicitud a la API

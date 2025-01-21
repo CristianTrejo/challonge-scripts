@@ -1,6 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
-import { API_KEY } from './config';
+const { API_KEY, EVENT_ID } = require('./config');
 
 const BASE_URL = 'https://api.challonge.com/v1/tournaments.json';
 
@@ -45,5 +45,4 @@ async function fetchAndSaveTournaments(eventId) {
 }
 
 // Llama a la función con un event_id específico
-const EVENT_ID = 12345; // Reemplaza con el event_id deseado
 fetchAndSaveTournaments(EVENT_ID);
